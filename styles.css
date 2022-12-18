@@ -1,0 +1,110 @@
+/* root colors */
+:root {
+    --color-white: #FFFFFF;
+    --gray-white: #eeeeee;
+    --color-text: #333333;
+    --color-link: #477ca7;
+}
+
+/* font Poppins for all the page */
+body {
+    font-family: 'Poppins';
+    background-color: var(--color-white);
+    margin: 0;
+    padding: 0;
+    color: var(--color-text);
+}
+
+/* a little dark background and paddings */
+.container {
+    background: var(--gray-white);
+    border-radius: 5px;
+    margin: 30px 8px;
+    padding: 25px 15px;
+}
+
+.header {
+    text-align: center;
+}
+
+#title {
+    font-size: 2.4rem;
+    margin: 15px;
+}
+
+/* flex cols for header */
+.img-div {
+    padding: 10px;
+    background-color: var(--color-white);
+}
+
+/* fit the image to cover all the ratio */
+.norman-with-friends {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/* text at the bottom of image */
+.image-description {
+    font-size: 15px;
+    text-align: center;
+}
+
+/* second heading after image to be center*/
+#tribute-info {
+    text-align: center;
+    font-size: 18px;
+    margin: 45px 0;
+}
+
+/* Dr life by year*/
+.lists {
+    max-width: 600px;
+    margin: 0 auto;
+    color: black;
+    font-size: 15px;
+    line-height: 2;
+}
+
+/* list items be separated */
+.list-item {
+    margin: 10px 0;
+}
+
+/* medium text size for the page */
+.medium {
+    font-size: 16px;
+}
+
+/* bold text */
+.bold {
+    font-weight: bold;
+}
+
+/* end of page italic text */
+.italic {
+    margin: 50px 0;
+    padding: 20px 0;
+    font-style: italic;
+    font-size: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.next-line {
+    display: block;
+    margin: 20px 0;
+}
+
+.medium-size {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* link custom color */
+#tribute-link {
+    color: var(--color-link);
+}
